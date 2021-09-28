@@ -1,0 +1,223 @@
+
+%-------------------------------------------------------------------------------
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% You can have multiple style options the legal options ones are:
+%
+%   centered:	the name and address are centered at the top of the page 
+%				(default)
+%
+%   line:		the name is the left with a horizontal line then the address to
+%				the right
+%
+%   overlapped:	the section titles overlap the body text (default)
+%
+%   margin:		the section titles are to the left of the body text
+%		
+%   11pt:		use 11 point fonts instead of 10 point fonts
+%
+%   12pt:		use 12 point fonts instead of 10 point fonts
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[margin]{res}  
+
+% Default font is the helvetica postscript font
+\usepackage{helvet}
+
+% Increase text height
+\textheight=700pt
+
+\begin{document}
+
+%-------------------------------------------------------------------------------
+%	NAME AND ADDRESS SECTION
+%-------------------------------------------------------------------------------
+\name{RIYA SAHU}
+
+% Note that addresses can be used for other contact information:
+% -phone numbers
+% -email addresses
+% -linked-in profile
+
+\address{\\LinkedIn : www.linkedin.com/in/riya-sahu-347603212/
+\\Github : https://github.com/riyasahu1
+}
+\address{riya0907001@gmail.com \\
+r19ca239@csa.reva.edu.in\\(+91) 8837342652\\}
+
+% Uncomment to add a third address
+%\address{Address 3 line 1\\Address 3 line 2\\Address 3 line 3}
+%-------------------------------------------------------------------------------
+
+\begin{resume}
+
+%-------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%-------------------------------------------------------------------------------
+\section{OBJECTIVE}
+{\sl I am passionate about working in a challenging environment where I can push up my skills constantly along with the organization's vision for the future growth.}
+
+\section{EDUCATION}
+\textbf{Reva University}, Bangalore\\
+{\sl Bachelor of Computer application(BCA)}, pursuing\\
+2019-2022
+\hfill Aggregate 77.8\%\\
+\textbf{DAV Public School}, Imphal, Manipur \\
+{\sl Class XII (PCMB)}, CBSE\\
+2019
+\hfill Aggregate 76\%\\
+\textbf{DAV Public School}, Imphal, Manipur \\
+{\sl Class X (General)}, CBSE\\
+2017
+\hfill CGPA: 9.4/10
+
+
+
+%-------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%-------------------------------------------------------------------------------
+\section{TECHNICAL\\SKILLS}
+
+\textbf{Languages : } Python, C++, C.
+\\
+\textbf{Database :} MySQL
+\\
+\textbf{Tools: } Intellij, Anaconda, VS Code, Tableau
+\\
+\textbf{Familiar : } Linux, HTML, CSS , Statistics, Problem Solving,java
+
+\section{EXPERIENCE}
+\par
+\normalfont{.}
+\\
+\normalfont{\textbf{LETS GROW MORE}\\
+{\sl Data Science intern\\
+\textbullet{} \textbf LetsGrowMore is a ground based organization which provide the youth self aware and to explore the untouched world of technology .\\
+\textbullet{} \textbf I was asked to perform some operation and analyse what kind of insights can we get from the datasets by using  {jupyter notebook}.\\
+\textbullet{} \textbf They had given a datasets of Stock Market where i had to predict, forecast and visualize the data.
+
+\hfill Aug2021-Sept2021%on \sl{Coursera} \\
+%Verify.certiport.com: wnScd-48CC\\
+%\textbullet{} \textbf{Database Administration Fundamentals} by %MTA(Microsoft Technology Associate)\\\hfill November 24,2020 %//Verify.certiport.com: JaF2-FVpT\\
+%\textbullet{} \textbf{HTML and CSS} by MTA(Microsoft Technology %Associate)\\\hfill October30,2019 %//Verify.certiport.com:UeFo-sF\\
+
+
+%\textbf{General : } Data Structures, Algorithm, Object Oriented Programming
+
+%-------------------------------------------------------------------------------
+%\section{SUBJECTS\\AND\\ELECTIVES}\\
+
+ 
+%\normalfont{ \textbullet{}}
+%\normalfont{\textbullet{} MANIPURI\\ }
+% Modify the format of each position
+\begin{format}
+\title{l}\\
+\dates{l}\location{r}\\
+\body\\
+\end{format}
+%-------------------------------------------------------------------------------
+
+%\section{}
+
+%\textbf{ \hfill{Aug 18 - Dec 18}\\}
+%\normalfont{Explaining theory behind different experiments to 1st-year Undergraduate \\student and guiding them in lab practicals}
+\\
+\\\section{CERTIFICATION}
+\par
+\normalfont{.}
+\\
+\normalfont{\textbullet{} \textbf{Introduction to Programming Using Python} by MTA(Microsoft Technology Associate)\\\hfill july 13 2021// %on \sl{Coursera} \\
+Verify.certiport.com: wnScd-48CC\\
+\textbullet{} \textbf{Database Administration Fundamentals} by MTA(Microsoft Technology Associate)\\\hfill November 24,2020 //Verify.certiport.com: JaF2-FVpT\\
+\textbullet{} \textbf{HTML and CSS} by MTA(Microsoft Technology Associate)\\\hfill October30,2019 //Verify.certiport.com:UeFo-sF\\
+
+\section{PROJECTS}
+\employer{LNMIIT}
+\location{}
+%\title{\textbf{Next Season Scrapper\hfill Oct 2018}
+%}
+%\begin{position}
+%\begin{itemize}
+\\\textbf{\textbullet{} Guessing the number game}\\
+Built a game from scratch using python in which the user has to select a range and guess that integer in the minimum number of guesses .
+\\\textbf{\textbullet{} Jumbled words game}\\
+Developed a simple GUI based application using python in which the game displays random jumbled word and the user has to type the correct answer and submit it.
+%\end{itemize}
+%\begin{itemize}
+\\\textbf{Technology/Tools:} Python, vs code
+\end{itemize}
+%\begin{itemize}
+%\item \textbf{Link :} github.com/Aneesh540/NextSeason
+%\end{itemize}
+%\end{position}
+
+%\employer{LNMIIT}
+%\location{}
+%\title{\textbf{Academic Project: Learning Management App \hfill %Sep - Dec 2018}
+% }
+%\begin{position}
+% \begin{itemize}
+%Worked in a 4 person team to develop a desktop based application in Java-Swing. The application provides an interface to streamline the process of content sharing communication between student and faculty.\\
+%I was responsible for designing database related to faculty and writing Java code which integrates faculty features like Course creation, Posts, Assignment to the main \\application
+% \end{itemize}
+%\begin{itemize}
+%\item \textbf{Technology/Tools:} Java, Java-Swing, MySQL 
+%\end{itemize}
+% \begin{itemize}
+% \item \textbf{Link :} github.com/Aneesh540/NextSeason
+% \end{itemize}
+%\end{position}
+
+
+%\section{CERTIFICATION}
+%\par
+%\normalfont{.}
+%\\
+%\normalfont{\textbullet{} \textbf{Introduction to Data Science in Python} by University of Michigan on \sl{Coursera} \\ Verify : coursera.org/verify/BDNM92TULS82}
+%\\
+%\textbullet{} \textbf{Applied Machine Learning in Python} by %University of Michigan on \sl{Coursera} \\ Ongoing
+
+
+\section{WORKSHOP\\and\\BOOTCAMP}
+\par
+
+\normalfont{\textbullet{} Attended a Bootcamp for Data Visualization with Tableau, Organised by Vodafone India Foundation(VOIS)\hfill july 2021 }\\
+\normalfont{ \textbullet{} Attended a workshop on Data Analytics, Organised by Vodafone India Foundation(VOIS)\hfill july 2021 }\\ }
+\end{resume}
+\(\)\end{document}
+%\normalfont{ \textbullet{} Software Engineering \\}
+%\normalfont{\textbullet{} Multimedia Processing and Application   }
+%\normalfont{\textbullet{} Computer Graphics\\}
+%\normalfont{\textbullet{} Data Structures and Algorithm }
+%\normalfont{ \textbullet{} Introduction to Database Management \\}
+%\normalfont{\textbullet{} Advanced Programming in Java}
+%\normalfont{\textbullet{} Operating System}
+%\normalfont{\textbullet{} Computer Networks}
+
+
+%\section{LANGUAGE KNOWN }
+
+%\normalfont{ \textbullet{} HINDI \\}
+%\normalfont{ \textbullet{} ENGLISH\\}
+%\normalfont{\textbullet{} MANIPURI\\ }
+
+%\section{EXTRA CURRICULAR ACTIVITIES}\\
+
+%\normalfont{ \textbullet{} Organised Cultural and Non-Cultural %event in Reva Talent Hunt Fest-2019\\}
+%\normalfont{ \textbullet{} Certified with 2nd prize for %Badminton in Reva Talent Hunt Fest-2019\\}
+%\normalfont{\textbullet{} MANIPURI\\ }
+
+%-------------------------------------------------------------------------------
+%\section{DECLARATION }
+%Hereby declared that the above-mentioned details are true to the %best of my knowledge.
+%RIYA SAHU\\
+%23 JUL 2021
+%\normalfont{ \textbullet{} HINDI \\}
+%\normalfont{ \textbullet{} ENGLISH\\}
+%\normalfont{\textbullet{} MANIPURI\\ }
+
+
+%\end{resume}
+%\(\)\end{document}
